@@ -1,0 +1,24 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin: 20px auto;
+}
+.cell {
+    width: 100px;
+    height: 100px;
+    font-size: 36px;
+    border: 2px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.cell:hover {
+    background-color: #f0f0f0;
+}
